@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#hero {
+    padding-top: 38px;
+    padding-bottom: 97px;
+    background: #FBE8D2;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.hero-text {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    text-align: center;
+    z-index: 10;
+}
+
+.hero-text h1 {
+    font-weight: 600;
+    font-size: 52px;
+    color: #252525;
+    padding-block: 10px;
+}
+
+.hero-text h2 {
+    font-weight: 300;
+    font-size: 20px;
+    color: #252525;
+    padding: 0 60px;
+}
+
+#hero .backtohome{
+    padding: 10px 18px !important;
+    border-radius: 35px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff !important;
+    background: #252525;
+    z-index: 10;
+    margin-top: 10px;
+}
+
+.shape img {
+    position: absolute;
+    z-index: 1;
+}
+
+.shape img.bg1 {
+    left: 30px;
+}
+
+.shape img.bg2 {
+    left: 50%;
+}
+
+.shape img.bg3 {
+    right: 30px;
+}
+
+.shape img.bg3 {
+    right: 30px;
+}
+
+.shape img.bg4 {
+    top: 80px;
+    left: 30px;
+}
+
+.shape img.bg5 {
+    bottom: 90px;
+    left: 250px;
+}
+
+.shape img.bg6 {
+    top: 180px;
+    right: 70px;
+}
+
+.shape img.bg7 {
+    bottom: 90px;
+    right: 150px;
+}
